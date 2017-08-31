@@ -1,26 +1,164 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Yky-IU-bgS">
+    <device id="ipad12_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Deloitte-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ContentDTT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKA-Ga-tnX">
+                                <rect key="frame" x="0.0" y="334" width="1366" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Cadastrar lead"/>
+                                <connections>
+                                    <segue destination="p3i-Vx-YCw" kind="show" id="4fJ-nr-fU3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stw-K9-8ke">
+                                <rect key="frame" x="0.0" y="237" width="1366" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Conteúdos"/>
+                                <connections>
+                                    <segue destination="naN-hD-cml" kind="show" id="nBI-r0-wjd"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uKA-Ga-tnX" firstAttribute="top" secondItem="stw-K9-8ke" secondAttribute="bottom" constant="43" id="3ti-px-Odv"/>
+                            <constraint firstAttribute="trailing" secondItem="stw-K9-8ke" secondAttribute="trailing" id="Qcd-HQ-ryf"/>
+                            <constraint firstItem="uKA-Ga-tnX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SZk-9o-X8Q"/>
+                            <constraint firstItem="stw-K9-8ke" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="173" id="mKU-fL-Olk"/>
+                            <constraint firstItem="stw-K9-8ke" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pAq-1Q-ztn"/>
+                            <constraint firstAttribute="trailing" secondItem="uKA-Ga-tnX" secondAttribute="trailing" id="rGx-ls-eg1"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Deloitte" id="WeS-t4-AKt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1076" y="138.0809595202399"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wzK-AZ-mX5">
+            <objects>
+                <viewController id="p3i-Vx-YCw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jik-p8-y6E"/>
+                        <viewControllerLayoutGuide type="bottom" id="fYG-ur-iEE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eM0-oZ-JS4">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NuV-er-FZO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndB-nd-LCO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3130.4000000000001" y="-272.11394302848578"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Esn-wJ-GGS">
+            <objects>
+                <tableViewController id="naN-hD-cml" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TTm-nt-PQ2">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="qap-eZ-LgO">
+                                <rect key="frame" x="0.0" y="28" width="1366" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qap-eZ-LgO" id="fhO-vm-Mvb">
+                                    <rect key="frame" x="0.0" y="0.0" width="1366" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="naN-hD-cml" id="jO5-0n-5Hm"/>
+                            <outlet property="delegate" destination="naN-hD-cml" id="SbL-Tr-GAc"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="nRk-TD-9Y3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TDs-I0-PNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3172" y="549.17541229385313"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bB5-VM-MV6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J9e-Hs-qmj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fy9-tA-vyU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="p3i-Vx-YCw" kind="relationship" relationship="rootViewController" id="Bw3-lB-18d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mxX-oh-bc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2191.1999999999998" y="-272.11394302848578"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TEX-gE-rUw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="miJ-OM-Ewa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sxm-E5-jCJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="naN-hD-cml" kind="relationship" relationship="rootViewController" id="RhF-wH-54f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uK0-QQ-Whr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2232.8000000000002" y="549.17541229385313"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5S1-50-vCi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yky-IU-bgS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sVX-ex-h0L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Tqp-Lz-eIh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLJ-du-Z8M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.0809595202399"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="nBI-r0-wjd"/>
+        <segue reference="4fJ-nr-fU3"/>
+    </inferredMetricsTieBreakers>
 </document>

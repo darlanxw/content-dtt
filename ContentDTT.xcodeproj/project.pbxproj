@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4E02716C466C9C5D21AF62 /* Pods_ContentDTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52EE7A706735023837B3B52 /* Pods_ContentDTT.framework */; };
+		865FB1061F5D8373007D2A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1051F5D8373007D2A6E /* ViewController.swift */; };
 		86A3BACB1F57542400ABF0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */; };
 		86A3BAD01F57542400ABF0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BACE1F57542400ABF0A0 /* Main.storyboard */; };
 		86A3BAD31F57542400ABF0A0 /* ContentDTT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BAD11F57542400ABF0A0 /* ContentDTT.xcdatamodeld */; };
 		86A3BAD51F57542400ABF0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BAD41F57542400ABF0A0 /* Assets.xcassets */; };
 		86A3BAD81F57542400ABF0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BAD61F57542400ABF0A0 /* LaunchScreen.storyboard */; };
-		86B302971F58AF35008F026F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B302961F58AF35008F026F /* ViewController.swift */; };
 		86B302991F58AF49008F026F /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B302981F58AF49008F026F /* DocumentsViewController.swift */; };
 		86B3029C1F58AF83008F026F /* LeadsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3029B1F58AF83008F026F /* LeadsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E4C5BE474051FC03C402C55 /* Pods-ContentDTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentDTT.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContentDTT/Pods-ContentDTT.release.xcconfig"; sourceTree = "<group>"; };
+		865FB1051F5D8373007D2A6E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86A3BAC71F57542400ABF0A0 /* ContentDTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentDTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A3BACF1F57542400ABF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -25,9 +28,10 @@
 		86A3BAD41F57542400ABF0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A3BAD71F57542400ABF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86A3BAD91F57542400ABF0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86B302961F58AF35008F026F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../Leads/ViewController.swift; sourceTree = "<group>"; };
 		86B302981F58AF49008F026F /* DocumentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
 		86B3029B1F58AF83008F026F /* LeadsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadsTableViewController.swift; sourceTree = "<group>"; };
+		B52EE7A706735023837B3B52 /* Pods_ContentDTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContentDTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11A314C89D69D05D3D2A216 /* Pods-ContentDTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentDTT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContentDTT/Pods-ContentDTT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4E02716C466C9C5D21AF62 /* Pods_ContentDTT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00BD6E1B56E0A595EEA3D47D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D11A314C89D69D05D3D2A216 /* Pods-ContentDTT.debug.xcconfig */,
+				1E4C5BE474051FC03C402C55 /* Pods-ContentDTT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C59F380173D491DDD0E7B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B52EE7A706735023837B3B52 /* Pods_ContentDTT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		86A3BABE1F57542400ABF0A0 = {
 			isa = PBXGroup;
 			children = (
 				86A3BAC91F57542400ABF0A0 /* ContentDTT */,
 				86A3BAC81F57542400ABF0A0 /* Products */,
+				00BD6E1B56E0A595EEA3D47D /* Pods */,
+				4C59F380173D491DDD0E7B24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,7 +116,7 @@
 		86B3029A1F58AF6E008F026F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				86B302961F58AF35008F026F /* ViewController.swift */,
+				865FB1051F5D8373007D2A6E /* ViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -104,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86A3BADC1F57542400ABF0A0 /* Build configuration list for PBXNativeTarget "ContentDTT" */;
 			buildPhases = (
+				37DFA9A631118984F612D691 /* [CP] Check Pods Manifest.lock */,
 				86A3BAC31F57542400ABF0A0 /* Sources */,
 				86A3BAC41F57542400ABF0A0 /* Frameworks */,
 				86A3BAC51F57542400ABF0A0 /* Resources */,
+				97C7B745367F5BE2F019F052 /* [CP] Embed Pods Frameworks */,
+				FCDB6B82869CE00D2142040D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,14 +192,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37DFA9A631118984F612D691 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97C7B745367F5BE2F019F052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContentDTT/Pods-ContentDTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCDB6B82869CE00D2142040D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContentDTT/Pods-ContentDTT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86A3BAC31F57542400ABF0A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865FB1061F5D8373007D2A6E /* ViewController.swift in Sources */,
 				86A3BAD31F57542400ABF0A0 /* ContentDTT.xcdatamodeld in Sources */,
 				86B302991F58AF49008F026F /* DocumentsViewController.swift in Sources */,
-				86B302971F58AF35008F026F /* ViewController.swift in Sources */,
 				86B3029C1F58AF83008F026F /* LeadsTableViewController.swift in Sources */,
 				86A3BACB1F57542400ABF0A0 /* AppDelegate.swift in Sources */,
 			);
@@ -225,6 +300,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -276,6 +352,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -297,9 +374,11 @@
 		};
 		86A3BADD1F57542400ABF0A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11A314C89D69D05D3D2A216 /* Pods-ContentDTT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DDE9FAS672;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ContentDTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.darlandev.ContentDTT;
@@ -310,9 +389,11 @@
 		};
 		86A3BADE1F57542400ABF0A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4C5BE474051FC03C402C55 /* Pods-ContentDTT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DDE9FAS672;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ContentDTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.darlandev.ContentDTT;

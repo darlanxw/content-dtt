@@ -6,5 +6,5 @@ target 'ContentDTT' do
   use_frameworks!
 
   # Pods for ContentDTT
-
+pod 'TesseractOCRiOS', '4.0.0'
 end

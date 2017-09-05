@@ -10,16 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewContainer:UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let vc1 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "vc1")
+        
+        
+        self.addChildViewController(vc1)
+        self.viewContainer.addSubview(vc1.view)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func setVc1(){
+        viewContainer.backgroundColor = UIColor.orange
     }
-
-
+    
+    @IBAction func setVc2(){
+    }
 }
 

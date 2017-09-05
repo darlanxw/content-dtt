@@ -1,5 +1,5 @@
 //
-//  DocumentsViewController.swift
+//  LeadsTableViewController.swift
 //  ContentDTT
 //
 //  Created by MacDD02 on 31/08/17.
@@ -9,14 +9,13 @@
 import Foundation
 import UIKit
 
-
-class DocumentsViewController: UIViewController {
+class LeadsViewController: UIViewController {
     
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var viewContainer:UIView!
     @IBOutlet var tableView:UITableView!
     
-    let documents = ["Gestão Financeira", "Integração de Sistemas", "SAP Hana", "Hybris Marketing", "SAP Hybris"]
+    let documents = ["Ulisses Tristão", "Carlos Fogarolli", "Darlan Borges", "Paulo Oliveira", "Thiago Vian", "Fábio Ferreira", "Ricardo Correia"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,13 +26,13 @@ class DocumentsViewController: UIViewController {
     }
 }
 
-extension DocumentsViewController : UITableViewDelegate, UITableViewDataSource {
+extension LeadsViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return documents.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CellCategory")!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellContact")!
         
         cell.textLabel?.text = documents[indexPath.row]
         

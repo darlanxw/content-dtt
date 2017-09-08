@@ -41,12 +41,12 @@ class LeadData {
         } catch let error as NSError {
             // failure
             print(error)
-            return [Checking]()
+            return [Contacts]()
         }
     }
     
     // Gets a Check by id
-    func getById(_ id: NSManagedObjectID) -> Checking? {
+    func getById(_ id: NSManagedObjectID) -> Contacts? {
         return context.object(with: id) as? Contacts
     }
     

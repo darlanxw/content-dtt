@@ -11,6 +11,7 @@ import UIKit
 
 class NewLeadViewController : UIViewController {
     override func viewDidLoad() {
+        hideKeyboardWhenTappedAround()
     }
     
     @IBAction func close(){

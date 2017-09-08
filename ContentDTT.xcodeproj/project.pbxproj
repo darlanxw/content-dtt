@@ -11,6 +11,9 @@
 		865FB1061F5D8373007D2A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1051F5D8373007D2A6E /* ViewController.swift */; };
 		865FB1081F5F0E58007D2A6E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1071F5F0E58007D2A6E /* MenuViewController.swift */; };
 		865FB1101F62DB4E007D2A6E /* NewLeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB10F1F62DB4E007D2A6E /* NewLeadViewController.swift */; };
+		865FB1131F62F6DC007D2A6E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1121F62F6DC007D2A6E /* Extensions.swift */; };
+		865FB1151F62F74F007D2A6E /* LeadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1141F62F74F007D2A6E /* LeadData.swift */; };
+		865FB1171F62F8F9007D2A6E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1161F62F8F9007D2A6E /* CoreDataStack.swift */; };
 		86A3BACB1F57542400ABF0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */; };
 		86A3BAD01F57542400ABF0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BACE1F57542400ABF0A0 /* Main.storyboard */; };
 		86A3BAD31F57542400ABF0A0 /* ContentDTT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BAD11F57542400ABF0A0 /* ContentDTT.xcdatamodeld */; };
@@ -25,6 +28,9 @@
 		865FB1051F5D8373007D2A6E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		865FB1071F5F0E58007D2A6E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		865FB10F1F62DB4E007D2A6E /* NewLeadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLeadViewController.swift; sourceTree = "<group>"; };
+		865FB1121F62F6DC007D2A6E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		865FB1141F62F74F007D2A6E /* LeadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadData.swift; sourceTree = "<group>"; };
+		865FB1161F62F8F9007D2A6E /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		86A3BAC71F57542400ABF0A0 /* ContentDTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentDTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A3BACF1F57542400ABF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +73,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		865FB1111F62F6A5007D2A6E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				865FB1121F62F6DC007D2A6E /* Extensions.swift */,
+				865FB1161F62F8F9007D2A6E /* CoreDataStack.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		86A3BABE1F57542400ABF0A0 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +103,7 @@
 		86A3BAC91F57542400ABF0A0 /* ContentDTT */ = {
 			isa = PBXGroup;
 			children = (
+				865FB1111F62F6A5007D2A6E /* Common */,
 				86B3029A1F58AF6E008F026F /* Home */,
 				86B302941F58AF35008F026F /* Documents */,
 				86B302951F58AF35008F026F /* Leads */,
@@ -114,6 +130,7 @@
 			children = (
 				86B3029B1F58AF83008F026F /* LeadsViewController.swift */,
 				865FB10F1F62DB4E007D2A6E /* NewLeadViewController.swift */,
+				865FB1141F62F74F007D2A6E /* LeadData.swift */,
 			);
 			path = Leads;
 			sourceTree = "<group>";
@@ -253,7 +270,10 @@
 			files = (
 				865FB1061F5D8373007D2A6E /* ViewController.swift in Sources */,
 				865FB1081F5F0E58007D2A6E /* MenuViewController.swift in Sources */,
+				865FB1151F62F74F007D2A6E /* LeadData.swift in Sources */,
 				86A3BAD31F57542400ABF0A0 /* ContentDTT.xcdatamodeld in Sources */,
+				865FB1131F62F6DC007D2A6E /* Extensions.swift in Sources */,
+				865FB1171F62F8F9007D2A6E /* CoreDataStack.swift in Sources */,
 				86B302991F58AF49008F026F /* DocumentsViewController.swift in Sources */,
 				86B3029C1F58AF83008F026F /* LeadsViewController.swift in Sources */,
 				86A3BACB1F57542400ABF0A0 /* AppDelegate.swift in Sources */,

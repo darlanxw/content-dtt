@@ -24,6 +24,14 @@ class LeadsViewController: UIViewController {
         
         self.tableView.backgroundColor = UIColor.white
     }
+    
+    @IBAction func newLead(){
+        let vc1 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NewLeadViewController")
+    
+        let vc = UIApplication.shared.keyWindow?.rootViewController as! ViewController
+        vc.addChildViewController(vc1)
+        vc.viewContainer.addSubview(vc1.view)
+    }
 }
 
 extension LeadsViewController : UITableViewDelegate, UITableViewDataSource {

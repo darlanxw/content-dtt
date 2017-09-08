@@ -10,6 +10,7 @@
 		2B4E02716C466C9C5D21AF62 /* Pods_ContentDTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52EE7A706735023837B3B52 /* Pods_ContentDTT.framework */; };
 		865FB1061F5D8373007D2A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1051F5D8373007D2A6E /* ViewController.swift */; };
 		865FB1081F5F0E58007D2A6E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1071F5F0E58007D2A6E /* MenuViewController.swift */; };
+		865FB1101F62DB4E007D2A6E /* NewLeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB10F1F62DB4E007D2A6E /* NewLeadViewController.swift */; };
 		86A3BACB1F57542400ABF0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */; };
 		86A3BAD01F57542400ABF0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BACE1F57542400ABF0A0 /* Main.storyboard */; };
 		86A3BAD31F57542400ABF0A0 /* ContentDTT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BAD11F57542400ABF0A0 /* ContentDTT.xcdatamodeld */; };
@@ -23,6 +24,7 @@
 		1E4C5BE474051FC03C402C55 /* Pods-ContentDTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContentDTT.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContentDTT/Pods-ContentDTT.release.xcconfig"; sourceTree = "<group>"; };
 		865FB1051F5D8373007D2A6E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		865FB1071F5F0E58007D2A6E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		865FB10F1F62DB4E007D2A6E /* NewLeadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLeadViewController.swift; sourceTree = "<group>"; };
 		86A3BAC71F57542400ABF0A0 /* ContentDTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentDTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A3BACF1F57542400ABF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				86B3029B1F58AF83008F026F /* LeadsViewController.swift */,
+				865FB10F1F62DB4E007D2A6E /* NewLeadViewController.swift */,
 			);
 			path = Leads;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				86B302991F58AF49008F026F /* DocumentsViewController.swift in Sources */,
 				86B3029C1F58AF83008F026F /* LeadsViewController.swift in Sources */,
 				86A3BACB1F57542400ABF0A0 /* AppDelegate.swift in Sources */,
+				865FB1101F62DB4E007D2A6E /* NewLeadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

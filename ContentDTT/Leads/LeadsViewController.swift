@@ -22,7 +22,7 @@ class LeadsViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
-        self.tableView.backgroundColor = UIColor.white
+        self.tableView.backgroundColor = UIColor.clear
     }
     
     @IBAction func newLead(){
@@ -40,9 +40,13 @@ extension LeadsViewController : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CellContact")!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellContact") as! CellContact
         
-        cell.textLabel?.text = documents[indexPath.row]
+        cell.lbTitle.text = documents[indexPath.row]
+        cell.name.text = documents[indexPath.row].characters.first?.description
+        cell.logo.layer.cornerRadius = 18.0
+        cell.logo.clipsToBounds = true
+        cell.logo.backgroundColor = UIColor.random()
         
         return cell
     }

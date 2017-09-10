@@ -23,7 +23,7 @@ class DocumentsViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
-        self.tableView.backgroundColor = UIColor.white
+        self.tableView.backgroundColor = UIColor.clear
     }
 }
 
@@ -33,9 +33,12 @@ extension DocumentsViewController : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CellCategory")!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellCategory") as! CellCategory
         
-        cell.textLabel?.text = documents[indexPath.row]
+        cell.lbTitle.text = documents[indexPath.row]
+        cell.img.image = UIImage(named: "deloitte")
+        cell.img.roundCornersForAspectFit(radius: 15)
+        
         
         return cell
     }

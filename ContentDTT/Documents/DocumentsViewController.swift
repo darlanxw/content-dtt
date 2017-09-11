@@ -16,7 +16,7 @@ class DocumentsViewController: UIViewController {
     @IBOutlet weak var viewContainer:UIView!
     @IBOutlet var tableView:UITableView!
     
-    let documents = ["Gestão Financeira", "Integração de Sistemas", "SAP Hana", "Hybris Marketing", "SAP Hybris"]
+    let documents = ["Digital", "Hana Live e Integração", "S4/HANA", "SAP Leonardo", "Supply Chain", "Techtrends"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

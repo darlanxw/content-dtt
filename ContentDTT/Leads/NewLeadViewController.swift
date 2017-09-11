@@ -26,6 +26,18 @@ class NewLeadViewController : UIViewController {
         
         btnCancel.layer.borderColor = UIColor.white.cgColor
         btnCancel.layer.borderWidth = 1.0
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(NewLeadViewController.keyboardWillShow(sender:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(NewLeadViewController.keyboardWillHide(sender:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+    }
+    
+    func keyboardWillShow(sender: NSNotification) {
+        self.view.frame.origin.y = -150 // Move view 150 points upward
+    }
+    
+    func keyboardWillHide(sender: NSNotification) {
+        self.view.frame.origin.y = 0 // Move view to original position
     }
     
     @IBAction func close(){

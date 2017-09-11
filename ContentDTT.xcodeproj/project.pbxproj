@@ -16,10 +16,17 @@
 		865FB1171F62F8F9007D2A6E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1161F62F8F9007D2A6E /* CoreDataStack.swift */; };
 		865FB1191F65946F007D2A6E /* CellCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1181F65946F007D2A6E /* CellCategory.swift */; };
 		865FB11B1F6597EF007D2A6E /* CellContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB11A1F6597EF007D2A6E /* CellContact.swift */; };
+		865FB11D1F66C413007D2A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865FB11C1F66C413007D2A6E /* Assets.xcassets */; };
+		865FB1261F66C9CF007D2A6E /* sap_add.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB11F1F66C9CF007D2A6E /* sap_add.svg */; };
+		865FB1271F66C9CF007D2A6E /* sap_contacts.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1201F66C9CF007D2A6E /* sap_contacts.svg */; };
+		865FB1281F66C9CF007D2A6E /* sap_doc.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1211F66C9CF007D2A6E /* sap_doc.svg */; };
+		865FB1291F66C9CF007D2A6E /* sap_documentos.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1221F66C9CF007D2A6E /* sap_documentos.svg */; };
+		865FB12A1F66C9CF007D2A6E /* sap_ppt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1231F66C9CF007D2A6E /* sap_ppt.svg */; };
+		865FB12B1F66C9CF007D2A6E /* sap_scan.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1241F66C9CF007D2A6E /* sap_scan.svg */; };
+		865FB12C1F66C9CF007D2A6E /* sap_video.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1251F66C9CF007D2A6E /* sap_video.svg */; };
 		86A3BACB1F57542400ABF0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */; };
 		86A3BAD01F57542400ABF0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BACE1F57542400ABF0A0 /* Main.storyboard */; };
 		86A3BAD31F57542400ABF0A0 /* ContentDTT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BAD11F57542400ABF0A0 /* ContentDTT.xcdatamodeld */; };
-		86A3BAD51F57542400ABF0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BAD41F57542400ABF0A0 /* Assets.xcassets */; };
 		86A3BAD81F57542400ABF0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BAD61F57542400ABF0A0 /* LaunchScreen.storyboard */; };
 		86B302991F58AF49008F026F /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B302981F58AF49008F026F /* DocumentsViewController.swift */; };
 		86B3029C1F58AF83008F026F /* LeadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3029B1F58AF83008F026F /* LeadsViewController.swift */; };
@@ -35,11 +42,18 @@
 		865FB1161F62F8F9007D2A6E /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		865FB1181F65946F007D2A6E /* CellCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCategory.swift; sourceTree = "<group>"; };
 		865FB11A1F6597EF007D2A6E /* CellContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellContact.swift; sourceTree = "<group>"; };
+		865FB11C1F66C413007D2A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		865FB11F1F66C9CF007D2A6E /* sap_add.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_add.svg; sourceTree = "<group>"; };
+		865FB1201F66C9CF007D2A6E /* sap_contacts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_contacts.svg; sourceTree = "<group>"; };
+		865FB1211F66C9CF007D2A6E /* sap_doc.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_doc.svg; sourceTree = "<group>"; };
+		865FB1221F66C9CF007D2A6E /* sap_documentos.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_documentos.svg; sourceTree = "<group>"; };
+		865FB1231F66C9CF007D2A6E /* sap_ppt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_ppt.svg; sourceTree = "<group>"; };
+		865FB1241F66C9CF007D2A6E /* sap_scan.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_scan.svg; sourceTree = "<group>"; };
+		865FB1251F66C9CF007D2A6E /* sap_video.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_video.svg; sourceTree = "<group>"; };
 		86A3BAC71F57542400ABF0A0 /* ContentDTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentDTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A3BACF1F57542400ABF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86A3BAD21F57542400ABF0A0 /* ContentDTT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContentDTT.xcdatamodel; sourceTree = "<group>"; };
-		86A3BAD41F57542400ABF0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A3BAD71F57542400ABF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86A3BAD91F57542400ABF0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B302981F58AF49008F026F /* DocumentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +100,20 @@
 			name = Common;
 			sourceTree = "<group>";
 		};
+		865FB11E1F66C9CF007D2A6E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				865FB11F1F66C9CF007D2A6E /* sap_add.svg */,
+				865FB1201F66C9CF007D2A6E /* sap_contacts.svg */,
+				865FB1211F66C9CF007D2A6E /* sap_doc.svg */,
+				865FB1221F66C9CF007D2A6E /* sap_documentos.svg */,
+				865FB1231F66C9CF007D2A6E /* sap_ppt.svg */,
+				865FB1241F66C9CF007D2A6E /* sap_scan.svg */,
+				865FB1251F66C9CF007D2A6E /* sap_video.svg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		86A3BABE1F57542400ABF0A0 = {
 			isa = PBXGroup;
 			children = (
@@ -107,13 +135,14 @@
 		86A3BAC91F57542400ABF0A0 /* ContentDTT */ = {
 			isa = PBXGroup;
 			children = (
+				865FB11E1F66C9CF007D2A6E /* images */,
+				865FB11C1F66C413007D2A6E /* Assets.xcassets */,
 				865FB1111F62F6A5007D2A6E /* Common */,
 				86B3029A1F58AF6E008F026F /* Home */,
 				86B302941F58AF35008F026F /* Documents */,
 				86B302951F58AF35008F026F /* Leads */,
 				86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */,
 				86A3BACE1F57542400ABF0A0 /* Main.storyboard */,
-				86A3BAD41F57542400ABF0A0 /* Assets.xcassets */,
 				86A3BAD61F57542400ABF0A0 /* LaunchScreen.storyboard */,
 				86A3BAD91F57542400ABF0A0 /* Info.plist */,
 				86A3BAD11F57542400ABF0A0 /* ContentDTT.xcdatamodeld */,
@@ -213,8 +242,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865FB12A1F66C9CF007D2A6E /* sap_ppt.svg in Resources */,
 				86A3BAD81F57542400ABF0A0 /* LaunchScreen.storyboard in Resources */,
-				86A3BAD51F57542400ABF0A0 /* Assets.xcassets in Resources */,
+				865FB12B1F66C9CF007D2A6E /* sap_scan.svg in Resources */,
+				865FB1261F66C9CF007D2A6E /* sap_add.svg in Resources */,
+				865FB1281F66C9CF007D2A6E /* sap_doc.svg in Resources */,
+				865FB11D1F66C413007D2A6E /* Assets.xcassets in Resources */,
+				865FB1291F66C9CF007D2A6E /* sap_documentos.svg in Resources */,
+				865FB12C1F66C9CF007D2A6E /* sap_video.svg in Resources */,
+				865FB1271F66C9CF007D2A6E /* sap_contacts.svg in Resources */,
 				86A3BAD01F57542400ABF0A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

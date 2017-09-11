@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-
+import SwiftSVG
 
 class DocumentsViewController: UIViewController {
     
@@ -24,6 +24,7 @@ class DocumentsViewController: UIViewController {
         tableView.dataSource = self
         
         self.tableView.backgroundColor = UIColor.clear
+    
     }
 }
 
@@ -36,8 +37,12 @@ extension DocumentsViewController : UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellCategory") as! CellCategory
         
         cell.lbTitle.text = documents[indexPath.row]
-        cell.img.image = UIImage(named: "deloitte")
-        cell.img.roundCornersForAspectFit(radius: 15)
+        
+        cell.name.text = documents[indexPath.row].characters.first?.description
+        cell.img.layer.cornerRadius = 18.0
+        cell.img.clipsToBounds = true
+        cell.img.backgroundColor = UIColor.random()
+        
         
         
         return cell

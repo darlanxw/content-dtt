@@ -29,22 +29,26 @@ class NewLeadViewController : UIViewController {
     }
     
     @IBAction func close(){
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func save(){
+        let name = txName.text!
+        let company = txCompany.text!
+        let number = txNumber.text!
+        let email = txEmail.text!
+        
         let alert = UIAlertController.init(title:"Confirmação",
                                            message: "Cadastro salvo com sucesso!",
                                            preferredStyle: .alert)
         self.present(alert, animated: true, completion: nil)
         Timer.scheduledTimer(withTimeInterval: 1.5, repeats: false, block: { (_) in
+            self.leadData.create(name: name, company: company, number: number, email: email)
             alert.dismiss(animated: true, completion: nil)
             self.dismiss(animated: true, completion: nil)
         })
-    }
-    
-    @IBAction func save(){
-        var name = txName.text!
-        var company = txCompany.text!
-        var number = txNumber.text!
-        var email = txEmail.text!
         
-        leadData.create(name: name, company: company, number: number, email: email)
+        
+        
     }
 }

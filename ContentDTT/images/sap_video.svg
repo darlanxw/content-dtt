@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>play-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ooto-Sessions-Copy-5" transform="translate(-137.000000, -200.000000)" fill-rule="nonzero">
+            <g id="play-button" transform="translate(137.000000, 200.000000)">
+                <circle id="Oval" fill="#EBBA16" cx="17" cy="17" r="17"></circle>
+                <g id="Group" transform="translate(12.310345, 7.620690)" fill="#FFFFFF">
+                    <polygon id="Shape" points="13.4827586 9.37931034 0.586206897 18.1724138 0.586206897 9.53934483 0.586206897 0.586206897"></polygon>
+                    <path d="M0.586206897,18.7586207 C0.492413793,18.7586207 0.398034483,18.7363448 0.312448276,18.6906207 C0.120172414,18.5892069 0,18.3898966 0,18.1724138 L0,0.586206897 C0,0.368724138 0.120172414,0.169413793 0.312448276,0.068 C0.504724138,-0.034 0.736862069,-0.0199310345 0.916827586,0.102 L13.8133793,8.89510345 C13.9728276,9.00413793 14.0689655,9.18527586 14.0689655,9.37931034 C14.0689655,9.57334483 13.9728276,9.75448276 13.8127931,9.86351724 L0.916241379,18.6566207 C0.817172414,18.7240345 0.701689655,18.7586207 0.586206897,18.7586207 Z M1.17241379,1.69589655 L1.17241379,17.0633103 L12.4422414,9.37931034 L1.17241379,1.69589655 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

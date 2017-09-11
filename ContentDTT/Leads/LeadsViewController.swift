@@ -8,14 +8,34 @@
 
 import Foundation
 import UIKit
+import CoreData
 
-class LeadsViewController: UIViewController {
+class LeadsViewController: UIViewController, NSFetchedResultsControllerDelegate {
     
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var viewContainer:UIView!
     @IBOutlet var tableView:UITableView!
     
+    //var coreDataStack:CoreDataStack = CoreDataStack()
+    private let persistentContainer = NSPersistentContainer(name: "ContentDTT")
+    
     let documents = ["Ulisses Tristão", "Carlos Fogarolli", "Darlan Borges", "Paulo Oliveira", "Thiago Vian", "Fábio Ferreira", "Ricardo Correia"]
+    
+    fileprivate lazy var fetchedResultsController: NSFetchedResultsController<Contacts> = {
+        // Create Fetch Request
+        let fetchRequest: NSFetchRequest<Contacts> = Contacts.fetchRequest()
+        
+        // Configure Fetch Request
+        fetchRequest.sortDescriptors = [NSSortDescriptor(key: "name", ascending: true)]
+        
+        // Create Fetched Results Controller
+        let fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: self.persistentContainer.viewContext, sectionNameKeyPath: nil, cacheName: nil)
+        
+        // Configure Fetched Results Controller
+        fetchedResultsController.delegate = self
+        
+        return fetchedResultsController
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +43,38 @@ class LeadsViewController: UIViewController {
         tableView.dataSource = self
         
         self.tableView.backgroundColor = UIColor.clear
+        
+        loadData()
+       
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        do {
+            try self.fetchedResultsController.performFetch()
+            self.tableView.reloadData()
+        } catch {
+            let fetchError = error as NSError
+            print("Unable to Perform Fetch Request")
+            print("\(fetchError), \(fetchError.localizedDescription)")
+        }
+    }
+    
+    func loadData(){
+        persistentContainer.loadPersistentStores { (persistentStoreDescription, error) in
+            if let error = error {
+                print("Unable to Load Persistent Store")
+                print("\(error), \(error.localizedDescription)")
+                
+            } else {
+                do {
+                    try self.fetchedResultsController.performFetch()
+                } catch {
+                    let fetchError = error as NSError
+                    print("Unable to Perform Fetch Request")
+                    print("\(fetchError), \(fetchError.localizedDescription)")
+                }
+            }
+        }
     }
     
     @IBAction func newLead(){
@@ -36,14 +88,22 @@ class LeadsViewController: UIViewController {
 
 extension LeadsViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return documents.count
+        guard let contacts = fetchedResultsController.fetchedObjects else { return 0 }
+        
+        return contacts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellContact") as! CellContact
         
-        cell.lbTitle.text = documents[indexPath.row]
-        cell.name.text = documents[indexPath.row].characters.first?.description
+        let contact = fetchedResultsController.object(at: indexPath)
+        
+        cell.lbTitle.text = contact.name
+        cell.email.text = contact.email
+        cell.company.text = contact.firm
+        cell.number.text = contact.number
+        
+        cell.name.text = contact.name?.characters.first?.description
         cell.logo.layer.cornerRadius = 18.0
         cell.logo.clipsToBounds = true
         cell.logo.backgroundColor = UIColor.random()

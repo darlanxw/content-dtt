@@ -11,5 +11,6 @@ import UIKit
 
 class CellCategory : UITableViewCell {
     @IBOutlet var lbTitle:UILabel!
-    @IBOutlet var img:UIImageView!
+    @IBOutlet var img:UIView!
+    @IBOutlet var name:UILabel!
 }

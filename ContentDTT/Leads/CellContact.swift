@@ -13,4 +13,7 @@ class CellContact : UITableViewCell {
     @IBOutlet var lbTitle:UILabel!
     @IBOutlet var logo:UIView!
     @IBOutlet var name:UILabel!
+    @IBOutlet var company:UILabel!
+    @IBOutlet var number:UILabel!
+    @IBOutlet var email:UILabel!
 }

@@ -24,6 +24,40 @@
 		865FB12A1F66C9CF007D2A6E /* sap_ppt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1231F66C9CF007D2A6E /* sap_ppt.svg */; };
 		865FB12B1F66C9CF007D2A6E /* sap_scan.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1241F66C9CF007D2A6E /* sap_scan.svg */; };
 		865FB12C1F66C9CF007D2A6E /* sap_video.svg in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1251F66C9CF007D2A6E /* sap_video.svg */; };
+		865FB1741F66EF5C007D2A6E /* Deloitte - CIO Program_1.avi in Resources */ = {isa = PBXBuildFile; fileRef = 865FB15C1F66EF5C007D2A6E /* Deloitte - CIO Program_1.avi */; };
+		865FB1751F66EF5C007D2A6E /* Deloitte Digital - part business, part creative, part technology.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 865FB15D1F66EF5C007D2A6E /* Deloitte Digital - part business, part creative, part technology.mp4 */; };
+		865FB1761F66EF5C007D2A6E /* Deloitte Digitization - Tuned for the digital era af.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 865FB15E1F66EF5C007D2A6E /* Deloitte Digitization - Tuned for the digital era af.mp4 */; };
+		865FB1771F66EF5C007D2A6E /* Deloitte_Big Bang_FINAL - legendado.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 865FB15F1F66EF5C007D2A6E /* Deloitte_Big Bang_FINAL - legendado.mp4 */; };
+		865FB1781F66EF5C007D2A6E /* Digital Disruption - Short fuse, big bang.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1601F66EF5C007D2A6E /* Digital Disruption - Short fuse, big bang.mp4 */; };
+		865FB1791F66EF5C007D2A6E /* Hackathon Deloitte 2017.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1611F66EF5C007D2A6E /* Hackathon Deloitte 2017.mp4 */; };
+		865FB17A1F66EF5C007D2A6E /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1621F66EF5C007D2A6E /* Thumbs.db */; };
+		865FB17B1F66EF5C007D2A6E /* Apresentaá∆o_SAP_FORUM_2017_HanaLive v8.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1641F66EF5C007D2A6E /* Apresentaá∆o_SAP_FORUM_2017_HanaLive v8.pptx */; };
+		865FB17C1F66EF5C007D2A6E /* Hana_Live_Presentation.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1651F66EF5C007D2A6E /* Hana_Live_Presentation.pptx */; };
+		865FB17D1F66EF5C007D2A6E /* 4195946 SAP Hana Marking Video_6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1671F66EF5C007D2A6E /* 4195946 SAP Hana Marking Video_6.mp4 */; };
+		865FB17E1F66EF5C007D2A6E /* Deloitte S4HANA Approach Deck_C.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1681F66EF5C007D2A6E /* Deloitte S4HANA Approach Deck_C.pptx */; };
+		865FB17F1F66EF5C007D2A6E /* Platform Moderenization_21082017_v3.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1691F66EF5C007D2A6E /* Platform Moderenization_21082017_v3.pptx */; };
+		865FB1801F66EF5C007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 865FB16A1F66EF5C007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pptx */; };
+		865FB1811F66EF5C007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 865FB16B1F66EF5C007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pptx */; };
+		865FB1821F66EF5C007D2A6E /* The Successor to Today's ERP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB16C1F66EF5C007D2A6E /* The Successor to Today's ERP.pdf */; };
+		865FB1831F66EF5C007D2A6E /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 865FB16D1F66EF5C007D2A6E /* Thumbs.db */; };
+		865FB1841F66EF5C007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1701F66EF5C007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pptx */; };
+		865FB1851F66EF5C007D2A6E /* Supply Chain Solutions - Deloitte.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1711F66EF5C007D2A6E /* Supply Chain Solutions - Deloitte.pptx */; };
+		865FB1861F66EF5C007D2A6E /* DUP_TechTrends2017.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1731F66EF5C007D2A6E /* DUP_TechTrends2017.pdf */; };
+		865FB1881F66F573007D2A6E /* DocumentsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FB1871F66F573007D2A6E /* DocumentsDetailViewController.swift */; };
+		865FB18A1F672EFC007D2A6E /* Apresentação G2M - Externa & SAP Forum.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1891F672D95007D2A6E /* Apresentação G2M - Externa & SAP Forum.pptx */; };
+		865FB1911F673F0E007D2A6E /* Apresentação G2M - Externa & SAP Forum.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1901F673F0E007D2A6E /* Apresentação G2M - Externa & SAP Forum.pdf */; };
+		865FB19B1F67430F007D2A6E /* Deloitte S4HANA Approach Deck_C.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1961F67430F007D2A6E /* Deloitte S4HANA Approach Deck_C.pdf */; };
+		865FB19C1F67430F007D2A6E /* Platform Moderenization_21082017_v3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1971F67430F007D2A6E /* Platform Moderenization_21082017_v3.pdf */; };
+		865FB19D1F67430F007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1981F67430F007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pdf */; };
+		865FB19E1F67430F007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1991F67430F007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pdf */; };
+		865FB1A11F674324007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB19F1F674324007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pdf */; };
+		865FB1A21F674324007D2A6E /* Supply Chain Solutions - Deloitte.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1A01F674324007D2A6E /* Supply Chain Solutions - Deloitte.pdf */; };
+		865FB1A51F67466C007D2A6E /* Apresentação_SAP_FORUM_2017_HanaLive v8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1A31F67466C007D2A6E /* Apresentação_SAP_FORUM_2017_HanaLive v8.pdf */; };
+		865FB1A61F67466C007D2A6E /* Hana_Live_Presentation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1A41F67466C007D2A6E /* Hana_Live_Presentation.pdf */; };
+		865FB1AA1F676F05007D2A6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1A91F676F05007D2A6E /* GoogleService-Info.plist */; };
+		865FB1AC1F677BF1007D2A6E /* Tech Trends 2017 Dinner in New York.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1AB1F677BF1007D2A6E /* Tech Trends 2017 Dinner in New York.mp4 */; };
+		865FB1AE1F677BFA007D2A6E /* Deloitte - CIO Program_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1AD1F677BFA007D2A6E /* Deloitte - CIO Program_1.mp4 */; };
+		865FB1B01F677C09007D2A6E /* Deloitte reimagine solution roadmap 2017.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 865FB1AF1F677C09007D2A6E /* Deloitte reimagine solution roadmap 2017.pdf */; };
 		86A3BACB1F57542400ABF0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */; };
 		86A3BAD01F57542400ABF0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A3BACE1F57542400ABF0A0 /* Main.storyboard */; };
 		86A3BAD31F57542400ABF0A0 /* ContentDTT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86A3BAD11F57542400ABF0A0 /* ContentDTT.xcdatamodeld */; };
@@ -50,6 +84,42 @@
 		865FB1231F66C9CF007D2A6E /* sap_ppt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_ppt.svg; sourceTree = "<group>"; };
 		865FB1241F66C9CF007D2A6E /* sap_scan.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_scan.svg; sourceTree = "<group>"; };
 		865FB1251F66C9CF007D2A6E /* sap_video.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sap_video.svg; sourceTree = "<group>"; };
+		865FB15C1F66EF5C007D2A6E /* Deloitte - CIO Program_1.avi */ = {isa = PBXFileReference; lastKnownFileType = video.avi; path = "Deloitte - CIO Program_1.avi"; sourceTree = "<group>"; };
+		865FB15D1F66EF5C007D2A6E /* Deloitte Digital - part business, part creative, part technology.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deloitte Digital - part business, part creative, part technology.mp4"; sourceTree = "<group>"; };
+		865FB15E1F66EF5C007D2A6E /* Deloitte Digitization - Tuned for the digital era af.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deloitte Digitization - Tuned for the digital era af.mp4"; sourceTree = "<group>"; };
+		865FB15F1F66EF5C007D2A6E /* Deloitte_Big Bang_FINAL - legendado.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deloitte_Big Bang_FINAL - legendado.mp4"; sourceTree = "<group>"; };
+		865FB1601F66EF5C007D2A6E /* Digital Disruption - Short fuse, big bang.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Digital Disruption - Short fuse, big bang.mp4"; sourceTree = "<group>"; };
+		865FB1611F66EF5C007D2A6E /* Hackathon Deloitte 2017.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hackathon Deloitte 2017.mp4"; sourceTree = "<group>"; };
+		865FB1621F66EF5C007D2A6E /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		865FB1641F66EF5C007D2A6E /* Apresentaá∆o_SAP_FORUM_2017_HanaLive v8.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apresentaá∆o_SAP_FORUM_2017_HanaLive v8.pptx"; sourceTree = "<group>"; };
+		865FB1651F66EF5C007D2A6E /* Hana_Live_Presentation.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hana_Live_Presentation.pptx; sourceTree = "<group>"; };
+		865FB1671F66EF5C007D2A6E /* 4195946 SAP Hana Marking Video_6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "4195946 SAP Hana Marking Video_6.mp4"; sourceTree = "<group>"; };
+		865FB1681F66EF5C007D2A6E /* Deloitte S4HANA Approach Deck_C.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deloitte S4HANA Approach Deck_C.pptx"; sourceTree = "<group>"; };
+		865FB1691F66EF5C007D2A6E /* Platform Moderenization_21082017_v3.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Platform Moderenization_21082017_v3.pptx"; sourceTree = "<group>"; };
+		865FB16A1F66EF5C007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SAP Proposal Timesaver Aug 2017 v01.pptx"; sourceTree = "<group>"; };
+		865FB16B1F66EF5C007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SAP S4HANA Placemat_Aug2017 v1.pptx"; sourceTree = "<group>"; };
+		865FB16C1F66EF5C007D2A6E /* The Successor to Today's ERP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Successor to Today's ERP.pdf"; sourceTree = "<group>"; };
+		865FB16D1F66EF5C007D2A6E /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		865FB1701F66EF5C007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Deloitte Brazil Supply Chain Presentation NOV2016.pptx"; sourceTree = "<group>"; };
+		865FB1711F66EF5C007D2A6E /* Supply Chain Solutions - Deloitte.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Supply Chain Solutions - Deloitte.pptx"; sourceTree = "<group>"; };
+		865FB1731F66EF5C007D2A6E /* DUP_TechTrends2017.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DUP_TechTrends2017.pdf; sourceTree = "<group>"; };
+		865FB1871F66F573007D2A6E /* DocumentsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsDetailViewController.swift; sourceTree = "<group>"; };
+		865FB1891F672D95007D2A6E /* Apresentação G2M - Externa & SAP Forum.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apresentação G2M - Externa & SAP Forum.pptx"; sourceTree = "<group>"; };
+		865FB18B1F673980007D2A6E /* Apresentação G2M - Externa & SAP Forum.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Apresentação G2M - Externa & SAP Forum.pdf"; sourceTree = "<group>"; };
+		865FB1901F673F0E007D2A6E /* Apresentação G2M - Externa & SAP Forum.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Apresentação G2M - Externa & SAP Forum.pdf"; path = "ContentDTT/CONTEUDO/SUPPLY CHAIN/Apresentação G2M - Externa & SAP Forum.pdf"; sourceTree = "<group>"; };
+		865FB1961F67430F007D2A6E /* Deloitte S4HANA Approach Deck_C.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Deloitte S4HANA Approach Deck_C.pdf"; path = "ContentDTT/CONTEUDO/S4HANA/Deloitte S4HANA Approach Deck_C.pdf"; sourceTree = "<group>"; };
+		865FB1971F67430F007D2A6E /* Platform Moderenization_21082017_v3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Platform Moderenization_21082017_v3.pdf"; path = "ContentDTT/CONTEUDO/S4HANA/Platform Moderenization_21082017_v3.pdf"; sourceTree = "<group>"; };
+		865FB1981F67430F007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SAP Proposal Timesaver Aug 2017 v01.pdf"; path = "ContentDTT/CONTEUDO/S4HANA/SAP Proposal Timesaver Aug 2017 v01.pdf"; sourceTree = "<group>"; };
+		865FB1991F67430F007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SAP S4HANA Placemat_Aug2017 v1.pdf"; path = "ContentDTT/CONTEUDO/S4HANA/SAP S4HANA Placemat_Aug2017 v1.pdf"; sourceTree = "<group>"; };
+		865FB19A1F67430F007D2A6E /* The Successor to Today's ERP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "The Successor to Today's ERP.pdf"; path = "ContentDTT/CONTEUDO/S4HANA/The Successor to Today's ERP.pdf"; sourceTree = "<group>"; };
+		865FB19F1F674324007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Deloitte Brazil Supply Chain Presentation NOV2016.pdf"; path = "ContentDTT/CONTEUDO/SUPPLY CHAIN/Deloitte Brazil Supply Chain Presentation NOV2016.pdf"; sourceTree = "<group>"; };
+		865FB1A01F674324007D2A6E /* Supply Chain Solutions - Deloitte.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Supply Chain Solutions - Deloitte.pdf"; path = "ContentDTT/CONTEUDO/SUPPLY CHAIN/Supply Chain Solutions - Deloitte.pdf"; sourceTree = "<group>"; };
+		865FB1A31F67466C007D2A6E /* Apresentação_SAP_FORUM_2017_HanaLive v8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Apresentação_SAP_FORUM_2017_HanaLive v8.pdf"; path = "ContentDTT/CONTEUDO/HANA LIVE E INTEGRAÄ«O/Apresentação_SAP_FORUM_2017_HanaLive v8.pdf"; sourceTree = "<group>"; };
+		865FB1A41F67466C007D2A6E /* Hana_Live_Presentation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Hana_Live_Presentation.pdf; path = "ContentDTT/CONTEUDO/HANA LIVE E INTEGRAÄ«O/Hana_Live_Presentation.pdf"; sourceTree = "<group>"; };
+		865FB1A91F676F05007D2A6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		865FB1AB1F677BF1007D2A6E /* Tech Trends 2017 Dinner in New York.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tech Trends 2017 Dinner in New York.mp4"; path = "ContentDTT/CONTEUDO/TECHTRENDs/Tech Trends 2017 Dinner in New York.mp4"; sourceTree = "<group>"; };
+		865FB1AD1F677BFA007D2A6E /* Deloitte - CIO Program_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Deloitte - CIO Program_1.mp4"; path = "ContentDTT/CONTEUDO/DIGITAL/Deloitte - CIO Program_1.mp4"; sourceTree = "<group>"; };
+		865FB1AF1F677C09007D2A6E /* Deloitte reimagine solution roadmap 2017.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Deloitte reimagine solution roadmap 2017.pdf"; path = "ContentDTT/CONTEUDO/DIGITAL/Deloitte reimagine solution roadmap 2017.pdf"; sourceTree = "<group>"; };
 		86A3BAC71F57542400ABF0A0 /* ContentDTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentDTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A3BACA1F57542400ABF0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A3BACF1F57542400ABF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,9 +184,98 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		865FB15A1F66EF5C007D2A6E /* CONTEUDO */ = {
+			isa = PBXGroup;
+			children = (
+				865FB15B1F66EF5C007D2A6E /* DIGITAL */,
+				865FB1631F66EF5C007D2A6E /* HANA LIVE E INTEGRAÄ«O */,
+				865FB1661F66EF5C007D2A6E /* S4HANA */,
+				865FB16E1F66EF5C007D2A6E /* SAP LEONARDO */,
+				865FB16F1F66EF5C007D2A6E /* SUPPLY CHAIN */,
+				865FB1721F66EF5C007D2A6E /* TECHTRENDs */,
+			);
+			path = CONTEUDO;
+			sourceTree = "<group>";
+		};
+		865FB15B1F66EF5C007D2A6E /* DIGITAL */ = {
+			isa = PBXGroup;
+			children = (
+				865FB15C1F66EF5C007D2A6E /* Deloitte - CIO Program_1.avi */,
+				865FB15D1F66EF5C007D2A6E /* Deloitte Digital - part business, part creative, part technology.mp4 */,
+				865FB15E1F66EF5C007D2A6E /* Deloitte Digitization - Tuned for the digital era af.mp4 */,
+				865FB15F1F66EF5C007D2A6E /* Deloitte_Big Bang_FINAL - legendado.mp4 */,
+				865FB1601F66EF5C007D2A6E /* Digital Disruption - Short fuse, big bang.mp4 */,
+				865FB1611F66EF5C007D2A6E /* Hackathon Deloitte 2017.mp4 */,
+				865FB1621F66EF5C007D2A6E /* Thumbs.db */,
+			);
+			path = DIGITAL;
+			sourceTree = "<group>";
+		};
+		865FB1631F66EF5C007D2A6E /* HANA LIVE E INTEGRAÄ«O */ = {
+			isa = PBXGroup;
+			children = (
+				865FB1641F66EF5C007D2A6E /* Apresentaá∆o_SAP_FORUM_2017_HanaLive v8.pptx */,
+				865FB1651F66EF5C007D2A6E /* Hana_Live_Presentation.pptx */,
+			);
+			path = "HANA LIVE E INTEGRAÄ«O";
+			sourceTree = "<group>";
+		};
+		865FB1661F66EF5C007D2A6E /* S4HANA */ = {
+			isa = PBXGroup;
+			children = (
+				865FB1671F66EF5C007D2A6E /* 4195946 SAP Hana Marking Video_6.mp4 */,
+				865FB1681F66EF5C007D2A6E /* Deloitte S4HANA Approach Deck_C.pptx */,
+				865FB1691F66EF5C007D2A6E /* Platform Moderenization_21082017_v3.pptx */,
+				865FB16A1F66EF5C007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pptx */,
+				865FB16B1F66EF5C007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pptx */,
+				865FB16C1F66EF5C007D2A6E /* The Successor to Today's ERP.pdf */,
+				865FB16D1F66EF5C007D2A6E /* Thumbs.db */,
+			);
+			path = S4HANA;
+			sourceTree = "<group>";
+		};
+		865FB16E1F66EF5C007D2A6E /* SAP LEONARDO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "SAP LEONARDO";
+			sourceTree = "<group>";
+		};
+		865FB16F1F66EF5C007D2A6E /* SUPPLY CHAIN */ = {
+			isa = PBXGroup;
+			children = (
+				865FB18B1F673980007D2A6E /* Apresentação G2M - Externa & SAP Forum.pdf */,
+				865FB1891F672D95007D2A6E /* Apresentação G2M - Externa & SAP Forum.pptx */,
+				865FB1701F66EF5C007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pptx */,
+				865FB1711F66EF5C007D2A6E /* Supply Chain Solutions - Deloitte.pptx */,
+			);
+			path = "SUPPLY CHAIN";
+			sourceTree = "<group>";
+		};
+		865FB1721F66EF5C007D2A6E /* TECHTRENDs */ = {
+			isa = PBXGroup;
+			children = (
+				865FB1731F66EF5C007D2A6E /* DUP_TechTrends2017.pdf */,
+			);
+			path = TECHTRENDs;
+			sourceTree = "<group>";
+		};
 		86A3BABE1F57542400ABF0A0 = {
 			isa = PBXGroup;
 			children = (
+				865FB1AF1F677C09007D2A6E /* Deloitte reimagine solution roadmap 2017.pdf */,
+				865FB1AD1F677BFA007D2A6E /* Deloitte - CIO Program_1.mp4 */,
+				865FB1AB1F677BF1007D2A6E /* Tech Trends 2017 Dinner in New York.mp4 */,
+				865FB1A31F67466C007D2A6E /* Apresentação_SAP_FORUM_2017_HanaLive v8.pdf */,
+				865FB1A41F67466C007D2A6E /* Hana_Live_Presentation.pdf */,
+				865FB19F1F674324007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pdf */,
+				865FB1A01F674324007D2A6E /* Supply Chain Solutions - Deloitte.pdf */,
+				865FB1961F67430F007D2A6E /* Deloitte S4HANA Approach Deck_C.pdf */,
+				865FB1971F67430F007D2A6E /* Platform Moderenization_21082017_v3.pdf */,
+				865FB1981F67430F007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pdf */,
+				865FB1991F67430F007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pdf */,
+				865FB19A1F67430F007D2A6E /* The Successor to Today's ERP.pdf */,
+				865FB1901F673F0E007D2A6E /* Apresentação G2M - Externa & SAP Forum.pdf */,
 				86A3BAC91F57542400ABF0A0 /* ContentDTT */,
 				86A3BAC81F57542400ABF0A0 /* Products */,
 				00BD6E1B56E0A595EEA3D47D /* Pods */,
@@ -135,6 +294,8 @@
 		86A3BAC91F57542400ABF0A0 /* ContentDTT */ = {
 			isa = PBXGroup;
 			children = (
+				865FB1A91F676F05007D2A6E /* GoogleService-Info.plist */,
+				865FB15A1F66EF5C007D2A6E /* CONTEUDO */,
 				865FB11E1F66C9CF007D2A6E /* images */,
 				865FB11C1F66C413007D2A6E /* Assets.xcassets */,
 				865FB1111F62F6A5007D2A6E /* Common */,
@@ -155,6 +316,7 @@
 			children = (
 				86B302981F58AF49008F026F /* DocumentsViewController.swift */,
 				865FB1181F65946F007D2A6E /* CellCategory.swift */,
+				865FB1871F66F573007D2A6E /* DocumentsDetailViewController.swift */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -242,16 +404,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865FB1B01F677C09007D2A6E /* Deloitte reimagine solution roadmap 2017.pdf in Resources */,
+				865FB1911F673F0E007D2A6E /* Apresentação G2M - Externa & SAP Forum.pdf in Resources */,
+				865FB1AE1F677BFA007D2A6E /* Deloitte - CIO Program_1.mp4 in Resources */,
+				865FB1AC1F677BF1007D2A6E /* Tech Trends 2017 Dinner in New York.mp4 in Resources */,
+				865FB18A1F672EFC007D2A6E /* Apresentação G2M - Externa & SAP Forum.pptx in Resources */,
+				865FB1751F66EF5C007D2A6E /* Deloitte Digital - part business, part creative, part technology.mp4 in Resources */,
+				865FB1A11F674324007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pdf in Resources */,
+				865FB1A21F674324007D2A6E /* Supply Chain Solutions - Deloitte.pdf in Resources */,
 				865FB12A1F66C9CF007D2A6E /* sap_ppt.svg in Resources */,
 				86A3BAD81F57542400ABF0A0 /* LaunchScreen.storyboard in Resources */,
 				865FB12B1F66C9CF007D2A6E /* sap_scan.svg in Resources */,
+				865FB1831F66EF5C007D2A6E /* Thumbs.db in Resources */,
 				865FB1261F66C9CF007D2A6E /* sap_add.svg in Resources */,
+				865FB1781F66EF5C007D2A6E /* Digital Disruption - Short fuse, big bang.mp4 in Resources */,
 				865FB1281F66C9CF007D2A6E /* sap_doc.svg in Resources */,
 				865FB11D1F66C413007D2A6E /* Assets.xcassets in Resources */,
+				865FB17B1F66EF5C007D2A6E /* Apresentaá∆o_SAP_FORUM_2017_HanaLive v8.pptx in Resources */,
+				865FB1811F66EF5C007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pptx in Resources */,
 				865FB1291F66C9CF007D2A6E /* sap_documentos.svg in Resources */,
+				865FB1761F66EF5C007D2A6E /* Deloitte Digitization - Tuned for the digital era af.mp4 in Resources */,
+				865FB1AA1F676F05007D2A6E /* GoogleService-Info.plist in Resources */,
+				865FB19B1F67430F007D2A6E /* Deloitte S4HANA Approach Deck_C.pdf in Resources */,
+				865FB19C1F67430F007D2A6E /* Platform Moderenization_21082017_v3.pdf in Resources */,
+				865FB19D1F67430F007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pdf in Resources */,
+				865FB19E1F67430F007D2A6E /* SAP S4HANA Placemat_Aug2017 v1.pdf in Resources */,
+				865FB1821F66EF5C007D2A6E /* The Successor to Today's ERP.pdf in Resources */,
+				865FB17E1F66EF5C007D2A6E /* Deloitte S4HANA Approach Deck_C.pptx in Resources */,
 				865FB12C1F66C9CF007D2A6E /* sap_video.svg in Resources */,
+				865FB1A51F67466C007D2A6E /* Apresentação_SAP_FORUM_2017_HanaLive v8.pdf in Resources */,
+				865FB1A61F67466C007D2A6E /* Hana_Live_Presentation.pdf in Resources */,
 				865FB1271F66C9CF007D2A6E /* sap_contacts.svg in Resources */,
+				865FB1801F66EF5C007D2A6E /* SAP Proposal Timesaver Aug 2017 v01.pptx in Resources */,
+				865FB17C1F66EF5C007D2A6E /* Hana_Live_Presentation.pptx in Resources */,
+				865FB17F1F66EF5C007D2A6E /* Platform Moderenization_21082017_v3.pptx in Resources */,
+				865FB17A1F66EF5C007D2A6E /* Thumbs.db in Resources */,
+				865FB1841F66EF5C007D2A6E /* Deloitte Brazil Supply Chain Presentation NOV2016.pptx in Resources */,
+				865FB1771F66EF5C007D2A6E /* Deloitte_Big Bang_FINAL - legendado.mp4 in Resources */,
+				865FB1861F66EF5C007D2A6E /* DUP_TechTrends2017.pdf in Resources */,
 				86A3BAD01F57542400ABF0A0 /* Main.storyboard in Resources */,
+				865FB1851F66EF5C007D2A6E /* Supply Chain Solutions - Deloitte.pptx in Resources */,
+				865FB1741F66EF5C007D2A6E /* Deloitte - CIO Program_1.avi in Resources */,
+				865FB17D1F66EF5C007D2A6E /* 4195946 SAP Hana Marking Video_6.mp4 in Resources */,
+				865FB1791F66EF5C007D2A6E /* Hackathon Deloitte 2017.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +508,7 @@
 				865FB1061F5D8373007D2A6E /* ViewController.swift in Sources */,
 				865FB1191F65946F007D2A6E /* CellCategory.swift in Sources */,
 				865FB1081F5F0E58007D2A6E /* MenuViewController.swift in Sources */,
+				865FB1881F66F573007D2A6E /* DocumentsDetailViewController.swift in Sources */,
 				865FB1151F62F74F007D2A6E /* LeadData.swift in Sources */,
 				865FB11B1F6597EF007D2A6E /* CellContact.swift in Sources */,
 				86A3BAD31F57542400ABF0A0 /* ContentDTT.xcdatamodeld in Sources */,
@@ -452,6 +648,7 @@
 				DEVELOPMENT_TEAM = DDE9FAS672;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ContentDTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.darlandev.ContentDTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,6 +664,7 @@
 				DEVELOPMENT_TEAM = DDE9FAS672;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ContentDTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.darlandev.ContentDTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -6,4 +6,6 @@ target 'ContentDTT' do
   use_frameworks!
   pod "TextFieldEffects"
   pod 'SwiftSVG', '~> 2.0'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 end

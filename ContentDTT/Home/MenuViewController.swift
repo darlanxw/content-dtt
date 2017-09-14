@@ -21,7 +21,7 @@ class MenuViewController: UIViewController {
         super.viewDidLoad()
         
         let documents = UIView(SVGNamed: "sap_documentos") { (svgLayer) in
-            svgLayer.fillColor = UIColor(red:0, green:0, blue:0, alpha:1.00).cgColor
+            svgLayer.fillColor = UIColor.green.cgColor
             svgLayer.resizeToFit(CGRect(x: 38, y: 157, width: 40, height: 40))
         }
         
